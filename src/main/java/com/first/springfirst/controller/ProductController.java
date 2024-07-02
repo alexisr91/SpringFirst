@@ -3,8 +3,7 @@ package com.first.springfirst.controller;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.first.springfirst.model.Product;
-import com.first.springfirst.service.ProductService;
-import lombok.AllArgsConstructor;
+import com.first.springfirst.service.ProductService; 
 import lombok.RequiredArgsConstructor;
 
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -56,7 +55,7 @@ public class ProductController {
         return productService.modify(id, product);
     }
 
-    @DeleteMapping("/delete")
+    @DeleteMapping("/delete/{id}")
     public String delete(@PathVariable Long id){
         return productService.delete(id);
     }
