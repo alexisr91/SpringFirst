@@ -35,6 +35,7 @@ public class ProductController {
     // Inversion of Control
     private final ProductService productService;
 
+    // POSTMAN 
     @GetMapping
     public String greeting(){
         return "Hello";
