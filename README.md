@@ -17,9 +17,6 @@ This is a CRUD project made with Spring Boot avec une API REST
 
 
 
-
-
-
 ## FAQ
 
 #### Is this a finished project ?
@@ -80,3 +77,10 @@ After the server is running, in order to connect to a database
 ![Capture d’écran 2024-07-03 à 10 11 16](https://github.com/alexisr91/SpringFirst/assets/160608635/011980ae-5941-434d-88f1-398eba410e51)
 
 ![Capture d’écran 2024-07-03 à 10 11 44](https://github.com/alexisr91/SpringFirst/assets/160608635/d7f62635-2925-4936-b45e-dde02a1d4156)
+
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
