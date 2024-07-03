@@ -13,6 +13,8 @@ This is a CRUD project made with Spring Boot avec une API REST
 
 **Tools:** POSTMAN
 
+**ORM:** Hibernate 
+
 **Builder:** Maven
 
 
